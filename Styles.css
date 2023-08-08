@@ -1,0 +1,769 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  #283349;
+    height: 4000px;
+}
+
+.navbar{
+    width :100%;
+    padding: 20px;
+    background-color: #283349;
+    box-sizing: border-box;
+
+}
+@media(min-width:600px){
+
+    
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color:  #283349;
+    }
+    
+    .name {
+        flex: 1;
+        font-size: 105px;
+        font-weight: bold;
+        padding-right: 20px;
+        color: beige;
+        margin-left: 200px;
+    }
+    
+    .photo img {
+        margin-top: 70px;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-left: 150px;
+        filter: brightness(0.7);
+    }
+    
+.navbar .navbar-item{
+    position: absolute;
+    right: 80px;
+    top:3px;
+}
+.navbar .home{
+    margin-left: 47px;
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar .navbar-item ul li{
+    display: inline;
+    margin-right: 99px;
+}
+.navbar .navbar-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar .navbar-item ul li a:hover{
+    color: white;
+}
+.navbar-btn{
+    display: none;
+}
+
+}
+@media(max-width:600px){
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color:  #283349;
+    }
+    
+    .name {
+        margin-top: 0px;
+        flex: 1;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: bold;
+        padding-right: 10px;
+        color: beige;
+    }
+    
+    .photo img {
+        width: 210px;
+        height: 210px;
+        border-radius: 75%;
+        box-shadow: 0 0  10px rgba(0, 0, 0, 0.5);
+        margin-right: 60px;
+        filter: brightness(0.7);
+    }
+
+
+
+
+
+    .navbar .home{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar .navbar-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar .navbar-item ul li{
+    margin-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar .navbar-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar-btn{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top:15px;
+    cursor: pointer;
+}
+.navbar-btn span{
+    display: block;
+    width: 15px;
+    border-top: 1px solid white;
+
+}
+.navbar-btn span:not(:last-child){
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+}
+
+
+/*
+
+section 2*/
+
+.navbar1{
+    width :100%;
+    padding: 24px;
+    background-color: #283349;
+    box-sizing: border-box;
+
+}
+@media(min-width:600px){
+ 
+    .header1 {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color:  #283349;
+    }
+    
+    .name1 p {
+        flex: 1;
+        font-size: 20px;
+        font-weight: bold;
+        padding-right: 19px;
+        color: beige;
+    }
+    
+    .photo1 img {
+        margin-top: 70px;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin-right: 100px;
+        margin-left: 140px;
+        filter: brightness(0.7);
+    }
+    
+.navbar1 .navbar1-item{
+    position: absolute;
+    right: 80px;
+    top:803px;
+}
+.navbar1 .home1{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+    margin-left: 47px;
+}
+.navbar1 a:hover{
+    color: white;
+}
+.navbar1 .navbar1-item ul li{
+    display: inline;
+    margin-right: 99px;
+}
+.navbar1 .navbar1-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar1 .navbar1-item ul li a:hover{
+    color: white;
+}
+.navbar1-btn{
+    display: none;
+}
+
+}
+@media(max-width:600px){
+    .header1 {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color:  #283349;
+    }
+    
+    .name1 {
+        
+        flex: 1;
+        margin-left: 0px;
+        font-size: 9px;
+        font-weight: bold;
+        padding-right: 0px;
+        color: beige;
+    }
+    
+    .photo1 img {
+        width: 170px;
+        height: 170px;
+        border-radius: 65%;
+        box-shadow: 0 0  10px rgba(0, 0, 0, 0.5);
+        margin-right: 10px;
+        filter: brightness(0.7);
+    }
+
+
+
+
+    .navbar1 .home1{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar1 a:hover{
+    color: white;
+}
+.navbar1 .navbar1-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar1 .navbar1-item ul li{
+    margin-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar1 .navbar1-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar1-btn{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top:815px;
+    cursor: pointer;
+}
+.navbar1-btn span{
+    display: block;
+    width: 15px;
+    border-top: 1px solid white;
+
+}
+.navbar1-btn span:not(:last-child){
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+}
+/*
+section 3*/
+
+.navbar2{
+    width :100%;
+    padding: 20px;
+    background-color: #283349;
+    box-sizing: border-box;
+
+}
+@media(min-width:600px){
+    
+.edu h1{
+    font-size: 25px;
+    color: beige;
+    margin-left: 80px;
+    margin-top: 0;
+}
+.edu img{
+    width: 750px;
+    height: 450px;
+   margin-left: 0px;
+    margin-top: 0;
+    
+}
+.experi h1{
+    font-size: 25px;
+    color: beige;
+    margin-left: 80px;
+    margin-top: 0;
+
+}
+.experi p{
+    font-size: 20px;
+    color: beige;
+    margin-left: 20px;
+    margin-top: 0;
+
+}
+
+    
+.navbar2 .navbar2-item{
+    position: absolute;
+    right: 80px;
+    top:1603px;
+}
+.navbar2 .home2{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar2 a:hover{
+    color: white;
+}
+.navbar2 .navbar2-item ul li{
+    display: inline;
+    margin-right: 99px;
+}
+.navbar2 .navbar2-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar2 .navbar2-item ul li a:hover{
+    color: white;
+}
+.navbar2-btn{
+    display: none;
+}
+
+}
+@media(max-width:600px){
+    .edu h1{
+        font-size: 20px;
+        color: beige;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+    .edu img{
+        width: 350px;
+        height: 200px;
+       margin-left: 7px;
+        margin-top: 0;
+        
+    }
+    .experi h1{
+        font-size: 20px;
+        color: beige;
+        margin-left: 10px;
+        margin-top: 0;
+    
+    }
+    .experi p{
+        font-size: 10px;
+        color: beige;
+        margin-left: 15px;
+        margin-top: 0;
+    
+    }
+
+
+
+
+
+
+    .navbar2 .home2{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar2 a:hover{
+    color: white;
+}
+.navbar2 .navbar2-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar2 .navbar2-item ul li{
+    margin-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar2 .navbar2-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar2-btn{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top:1615px;
+    cursor: pointer;
+}
+.navbar2-btn span{
+    display: block;
+    width: 15px;
+    border-top: 1px solid white;
+
+}
+.navbar2-btn span:not(:last-child){
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+}
+/* section 4*/
+.navbar3{
+    width :100%;
+    padding: 20px;
+    background-color: #283349;
+    box-sizing: border-box;
+
+}
+@media(min-width:600px){
+    .container {
+        display: flex;
+        justify-content: space-between; /* Distribute space between flex items */
+        align-items: center; /* Vertically center items */
+        margin: 2px;
+        padding: 2px;
+        
+    }
+    
+    .description {
+        flex: 1; /* Take remaining width */
+        padding-right: 20px; /* Add spacing between description and image */
+    }
+    .description a{
+        font-size: 25px;
+        margin-left: 40px;
+        color: beige;
+        text-decoration: none;
+    }
+    .description p{
+        color: beige;
+        margin-left: 40px;
+        font-size: 20px;
+    }
+    
+    .image {
+        flex: 0; /* Do not grow or shrink */
+    }
+    
+    .image img {
+        max-width: 150px; /* Set maximum image width */
+        margin-right: 100px;
+    }
+    
+.navbar3 .navbar3-item{
+    position: absolute;
+    right: 80px;
+    top:2403px;
+}
+.navbar3 .home3{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar3 a:hover{
+    color: white;
+}
+.navbar3 .navbar3-item ul li{
+    display: inline;
+    margin-right: 99px;
+}
+.navbar3 .navbar3-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar3 .navbar3-item ul li a:hover{
+    color: white;
+}
+.navbar3-btn{
+    display: none;
+}
+
+}
+@media(max-width:600px){
+    .container {
+        display: flex;
+        justify-content: space-between; /* Distribute space between flex items */
+        align-items: center; /* Vertically center items */
+        margin: 2px;
+        padding: 2px;
+        
+    }
+    
+    .description {
+        flex: 1; /* Take remaining width */
+        padding-right: 20px; /* Add spacing between description and image */
+    }
+    .description a{
+        margin-left: 15px;
+        color: beige;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .description p{
+        color: beige;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    
+    .image {
+        flex: 0; /* Do not grow or shrink */
+    }
+    
+    .image img {
+        width: 80px; 
+        height: 80px;/* Set maximum image width */
+        margin-right: 10px;
+    }
+    .navbar3 .home3{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar3 a:hover{
+    color: white;
+}
+.navbar3 .navbar3-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar3 .navbar3-item ul li{
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar3 .navbar3-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar3-btn{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top:2415px;
+    cursor: pointer;
+}
+.navbar3-btn span{
+    display: block;
+    width: 15px;
+    border-top: 1px solid white;
+
+}
+.navbar3-btn span:not(:last-child){
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+}
+
+/* section 5*/
+.navbar4{
+    width :100%;
+    padding: 20px;
+    background-color: #283349;
+    box-sizing: border-box;
+
+}
+@media(min-width:600px){
+    .containe {
+        
+        width: 800px;
+        height: 500px;
+        margin: 80px auto;
+        background-color:#283349;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 350px;
+    }
+    
+    h1 {font-size: 75px;
+        margin-top: 0;
+        color: beige;
+    }
+    p {font-size: 40px;
+        margin: 10px 0;
+        display: flex;
+       
+    }
+    .containe a{
+        
+        color: beige;
+        text-decoration: none;
+    }
+
+   
+    .icon {
+
+        font-size: 40px;
+        color: beige;
+        margin-right: 30px;
+    }
+   
+
+.navbar4 .navbar4-item{
+    position: absolute;
+    right: 80px;
+    top:3203px;
+}
+.navbar4 .home4{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar4 a:hover{
+    color: white;
+}
+.navbar4 .navbar4-item ul li{
+    display: inline;
+    margin-right: 99px;
+}
+.navbar4 .navbar4-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 25px;
+}
+.navbar4 .navbar4-item ul li a:hover{
+    color: white;
+}
+.navbar4-btn{
+    display: none;
+}
+
+}
+@media(max-width:600px){
+
+    .containe {
+        
+        width: 200px;
+        margin: 10px auto;
+        background-color:#283349;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    
+    h1 {
+        margin-top: 0;
+        color: beige;
+    }
+    p {
+        margin: 10px 0;
+        display: flex;
+       
+    }
+    .containe a{
+        color: beige;
+        text-decoration: none;
+    }
+
+   
+    .icon {
+
+        font-size: 20px;
+        color: beige;
+        margin-right: 30px;
+    }
+   
+
+
+
+    .navbar4 .home4{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar4 a:hover{
+    color: white;
+}
+.navbar4 .navbar4-item ul{
+    list-style-type: none;
+    padding: 0;
+}
+.navbar4 .navbar4-item ul li{
+    margin-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar4 .navbar4-item ul li a{
+    color: beige;
+   text-decoration: none;
+    font-size: 16px;
+}
+.navbar4-btn{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top:3215px;
+    cursor: pointer;
+}
+.navbar4-btn span{
+    display: block;
+    width: 15px;
+    border-top: 1px solid white;
+
+}
+.navbar4-btn span:not(:last-child){
+    margin-bottom: 5px;
+}
+.hide{
+    display: none;
+}
+}
+
